@@ -1,0 +1,211 @@
+\section{Introduction}
+\subsection{Contexte}
+
+\subsubsection{\large Le cadre}
+Le présent projet de laboratoire est réalisé dans le cadre de notre 
+formation de bachelor d'ingénieur microtechnicien dans le 
+module Phy3. Il se déroulera tout au long du semestre d'automne 
+2023, à une fréquence de quatre périodes toutes les deux semaines. Nous allons 
+le réaliser à trois avec Rivera Evan, Roeslin Olivier et 
+Pitteloud Célien. Nous sommes encadrés par M. Gravier, maître d'enseignement
+et Mme Hanin, assistante HES.\\ 
+Le but de ce projet est l'étude des ondes acoustiques dans la matière solide.
+Ce travail nous permet, en plus de nous familiariser avec les exigences de rigueur 
+lors des expérimentations et de la rédaction d'un rapport de laboratoire, de faire 
+le lien avec des notions vues dans différents cours. En effet, les phénomènes
+ondulatoires sont au programme du module de Phy3 dans lequel a lieu ce laboratoire.
+Le module de Young est une notion étudiée et utilisée dans les cours de ResMatMT
+et Matx1MT.
+
+\subsubsection{\large Etat de l'art (SOTA)}
+Une onde est la propagation d'une perturbation produisant sur son
+passage une variation réversible des propriétés physiques locales 
+du milieu. Elle se déplace avec une vitesse déterminée qui dépend 
+des caractéristiques du milieu de propagation.
+Il existe trois principaux types d'ondes: les ondes mécaniques, 
+les ondes électromagnétiques et les ondes gravitationnelles.
+Ces trois types varient en longueur d'onde et comprennent, 
+pour les ondes mécaniques, les infrasons, 
+les sons et les ultrasons.~\cite{wikipedia-onde}
+
+%\footnote{WIKIPEDIA. 
+%\textit{Onde --- Wikipédia, l'encyclopédie libre}. [en ligne]. 2023. 
+%[consulté le 04.10.2023]. Disponible sur : 
+%\href{https://fr.wikipedia.org/wiki/Onde}{wikipedia.org}}\\
+
+Dans ce rapport, nous allons nous concentrer sur l'étude de la propagation
+des ondes acoustiques dans les solides, autrement dit les ondes 
+mécaniques progressives. 
+
+Ce phénomène physique repose sur l'oscillation des particules 
+d'un milieu et de la transmission de ces oscillations.
+Ces dernières peuvent avoir plusieurs directions par rapport à la 
+direction de propagation d'une onde.
+Par exemple, si l'on jette un caillou dans un étang
+et que l'on regarde les ondes créées autour du point d'impact,
+l'oscillation est dite transversale. Elle est perpendiculaire
+à la direction de propagation de l'onde, c'est un mouvement de cisaillement.
+
+Par opposition, si nous prenons un ressort avec de nombreuses 
+spires auxquelles nous agitons l'extrémité et que l'on regarde le 
+déplacement et l'oscillation des spires, la propagation de l'onde sera
+dans la même direction que l'oscillation des particules.
+On dira que ce type d'onde est une onde longitudinale, une suite de
+compressions et de dilatations.~\cite{royer-dieulesaint-acoustique}
+
+%\footnote{DANIEL ROYER, EUGENE DIEULESAINT. \textit{Acoustique - 
+%Propagation dans un solide --- Techniques de l'ingénieur}. 
+%[en ligne]. 2023. [consulté le 14.10.2023]. 
+%Disponible sur : \href{https://www.techniques-ingenieur.fr/base-documentaire/sciences-fondamentales-th8/applications-en-mecanique-physique-42643210/acoustique-af3814/}
+%{techniques-ingenieur.fr}}
+
+Chaque molécule qui constitue le ressort va osciller autour
+d'une position d'équilibre, car il n'y a pas de transport de matière.
+Cette perturbation va se propager le long du ressort.
+Cette alternance de zone comprimée et de zone dilatée, va se retrouver dans 
+les ondes sonores.~\cite{revisions-bac}
+
+%\footnote{REVISIONS BAC. 
+%\textit{Ondes transversales et longitudinales --- Youtube}. 
+%[en ligne]. 2023. [consulté le 14.10.2023]. Disponible sur : 
+%\href{https://www.youtube.com/watch?v=l1V4_SPfhLM}
+%{youtube.com/@Revisionsbac}}\\
+
+\newpage
+
+En résumé, le principe sous-jacent à la propagation 
+d'une onde dans un solide repose sur trois principes physiques fondamentaux:
+\begin{enumerate}
+    \item La compression et la dilatation:
+    \subitem Lorsqu'une onde se propage dans un solide, 
+    les particules du matériau subissent une alternance de 
+    compression (rapprochement des particules) 
+    et de dilatation (écartement des particules). 
+    Cette variation périodique crée une série de régions plus denses 
+    (compression) et moins denses (dilatation) à mesure que l'onde se 
+    propage.
+    \item Le transfert d'énergie:
+    \subitem  Les particules du matériau ne se déplacent pas de manière 
+    significative, mais elles transmettent leur énergie cinétique les unes 
+    aux autres. C'est ce transfert d'énergie qui permet à l'onde de 
+    se propager à travers le solide. Les particules vibrent autour de leur 
+    position d'équilibre, transmettant l'énergie de proche en proche.
+    \item La propagation ondulatoire:
+    \subitem Les perturbations de compression et de dilatation se propagent 
+    sous forme d'ondes mécaniques à travers le matériau. Ces ondes peuvent 
+    être longitudinales ou transversales. La vitesse de 
+    propagation dépend des propriétés du matériau, telles que sa densité, 
+    sa rigidité et sa cohésion.\\
+\end{enumerate}
+
+Le module de Young ou module d'élasticité est une caractéristique propre à
+chaque matériau. Ce module définit un rapport entre une contrainte et la
+déformation d'un matériau. Cette caractéristique modifie la vitesse de
+propagation des ondes acoustiques dans le solide.
+Tout solide possède une fréquence naturelle qui dépend de l'élasticité de
+l'objet, et donc de son module de Young, à laquelle il vibre avec la plus
+grande amplitude possible. Lorsqu'un objet est exposé à des vibrations de
+sa fréquence naturelle, il se met à vibrer aussi. Ce phénomène s'appelle
+la résonance.~\cite{professeur-khattabi}\\
+
+%\footnote{PROFESSEUR KHATTABI. 
+%\textit{Résonance --- DSFM}. 
+%[en ligne]. 2023. [consulté le 14.10.2023]. Disponible sur : 
+%\href{https://web.dsfm.mb.ca/ecoles/clr/profs/fkhattabi/M3L2.pdf}
+%{web.dsfm.mb.ca}}\\
+
+De plus, lorsqu'un matériau est exposé à une variation de température, son
+module de Young va varier en raison de la modification de la nature des
+liaisons interatomiques assurant la cohésion du matériau.
+
+\newpage
+
+\subsubsection{\large Domaines d'applications}
+L'étude de la propagation d'ondes est utilisée dans beaucoup de secteurs 
+pour inspecter ce que l'on ne peut pas voir à l'intérieur d'un matériau
+solide. Voici quelques exemples d'utilisation de ce principe physique:
+
+- Secteur médical:
+les ondes électromagnétiques sont beaucoup utilisées pour l'imagerie médicale. 
+Elles sont envoyées dans le corps des patients et leur comportement est modifié
+en fonction du solide qu'elles traversent, ce qui permet d'obtenir des images
+de l'intérieur du corps des patients. Ces ondes peuvent avoir des fréquences et
+longueur d'ondes différentes pour des utilisations différentes (les rayons X
+pour les radiographies, les micro-ondes pour les échographies, les ondes radio
+pour les IRM).~\cite{cea}\\
+
+%\footnote{CEA. 
+%\textit{Le fonctionnement d'un scanner X --- CEA, De la recherche à l'industrie}. [en ligne]. 2014. 
+%[consulté le 15.10.2023]. Disponible sur : 
+%\href{https://www.cea.fr/multimedia/pages/videos/culture-scientifique/sante-sciences-du-vivant/fonctionnement-scanner-x.aspx}{cea.fr}}\\
+
+- Secteur de la sismologie:
+à la suite d'un séisme, des vibrations sont transmises à la terre. Celles-ci se
+déplacent à des vitesses différentes en fonction du type de matières qu'elles
+traversent. Ces ondes sont mesurées à l'aide d'un sismographe. Ces mesures
+permettent de comprendre la structure du sol et de plus ou moins prévoir les
+futurs séismes.~\cite{wikipedia-echographie}\\
+
+%\footnote{WIKIPEDIA. 
+%\textit{Échographie --- Wikipédia, l'encyclopédie libre}. [en ligne]. 2023. 
+%[consulté le 15.10.2023]. Disponible sur : 
+%\href{https://fr.wikipedia.org/wiki/Échographie}{wikipedia.org}}\\
+
+- Secteur industriel:
+la technologie d'imagerie par échographie est aussi utilisée en industrie. En
+effet, en étant envoyées à travers une soudure ou une tôle de métal, les
+ultrasons vont se déplacer différemment dans la matière, si le solide est de
+bonne ou mauvaise qualité, par exemple.\\
+
+- Secteur minier:
+à la manière de la sismologie, les ondes sismiques peuvent être utilisées pour
+détecter des gisements minéraux, comprendre la structure géologique du sol.
+Des ondes peuvent être émises dans le sol par des activités humaines (camion
+vibreur, explosif, canon à air, etc.).~\cite{wikipedia-imagerie-sismique}
+
+%\footnote{WIKIPEDIA. 
+%\textit{Imagerie sismique --- Wikipédia, l'encyclopédie libre}. [en ligne]. 2023. 
+%[consulté le 15.10.2023]. Disponible sur : 
+%\href{https://fr.wikipedia.org/wiki/Imagerie_sismique}{Wikipedia.org}}
+
+\newpage
+
+\subsection{Objectifs}
+Au travers de nos différents objectifs, le but de ce projet est de valider
+expérimentalement les modules de Young de différents matériaux et de mesurer
+les vitesses de propagation du son dans des solides en variant leurs
+géométries et leurs températures.\\
+\begin{enumerate}
+    \item Concevoir et réaliser un montage expérimental permettant 
+    de mesurer par méthode de résonance en mode continu la vitesse 
+    de propagation du son dans des barreaux solides.
+    \item Mesurer la vitesse de propagation du son dans des barreaux 
+    solides d'au moins 3 matériaux différents.
+    \item Déterminer expérimentalement le module de Young d'au moins
+    3 matériaux.
+    \item Déterminer expérimentalement l'évolution du module de Young 
+    en fonction de la longueur des barreaux pour au moins un matériau.
+    \item Déterminer expérimentalement l'évolution du module de Young 
+    en fonction de la température pour au moins un matériau.
+\end{enumerate}
+
+\subsubsection{\large Objectifs spécifiques et listes de tâches}
+Tous les objectifs listés ci-dessus ont été fixés suivant la 
+méthode SMART (Spécifiques, Mesurables, Atteignables, Réalistes 
+et Temporels) en accord avec M. Gravier. Ils seront effectués 
+dans l'ordre dans lequel ils sont listés et le numéro 5 est un 
+objectif complémentaire que l'on effectuera si nous prenons 
+suffisamment d'avance sur les objectifs 1 à 4. \\
+Les tâches s'organiseront comme suit:\\
+\begin{enumerate}
+	\item Conception de notre montage expérimental
+	\item Commande du matériel manquant
+	\item Réalisation et vérification de notre montage\\
+\end{enumerate}
+Pour chacun des objectifs suivants, la séquence sera la même, soit:\\
+\begin{enumerate}
+	\item Établissement des lois et équations physiques
+	\item Réalisation des mesures avec leur incertitude
+	\item Réduction et analyse des résultats
+	\item Rédaction du chapitre lié à l'objectif
+\end{enumerate}
