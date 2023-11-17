@@ -1,0 +1,17 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'Main.blg'
+[119] biber:340> INFO - === Tue Nov  7, 2023, 11:34:21
+[143] Biber.pm:415> INFO - Reading 'Main.bcf'
+[286] Biber.pm:952> INFO - Found 14 citekeys in bib section 0
+[306] Biber.pm:4340> INFO - Processing section 0
+[322] Biber.pm:4531> INFO - Looking for bibtex format file 'Bibliographie.bib' for section 0
+[323] bibtex.pm:1689> INFO - LaTeX decoding ...
+[339] bibtex.pm:1494> INFO - Found BibTeX data source 'Bibliographie.bib'
+[445] Utils.pm:384> WARN - Entry 'rapport-heig' (Bibliographie.bib): Invalid format 'Date de Consultation du Site Web (si disponible)' of date field 'urldate' - ignoring
+[493] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[493] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[493] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'fr-FR'
+[494] Biber.pm:4174> INFO - No sort tailoring available for locale 'fr-FR'
+[514] bbl.pm:654> INFO - Writing 'Main.bbl' with encoding 'UTF-8'
+[524] bbl.pm:757> INFO - Output to Main.bbl
+[525] Biber.pm:128> INFO - WARNINGS: 1

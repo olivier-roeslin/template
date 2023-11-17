@@ -1,0 +1,451 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{wikipedia-onde}{online}{}
+      \name{author}{1}{}{%
+        {{hash=030bd0fa2faebea3a5543e5242f1569f}{%
+           family={Wikipédia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{030bd0fa2faebea3a5543e5242f1569f}
+      \strng{fullhash}{030bd0fa2faebea3a5543e5242f1569f}
+      \strng{bibnamehash}{030bd0fa2faebea3a5543e5242f1569f}
+      \strng{authorbibnamehash}{030bd0fa2faebea3a5543e5242f1569f}
+      \strng{authornamehash}{030bd0fa2faebea3a5543e5242f1569f}
+      \strng{authorfullhash}{030bd0fa2faebea3a5543e5242f1569f}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Onde --- Wikipédia, l'encyclopédie libre}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://fr.wikipedia.org/wiki/Onde
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/wiki/Onde
+      \endverb
+    \endentry
+    \entry{royer-dieulesaint-acoustique}{online}{}
+      \name{author}{2}{}{%
+        {{hash=32a2a0ae3dba5b0372f592cf4d5ea01c}{%
+           family={Royer},
+           familyi={R\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=aaab2500a3d964b361de1c521c79d783}{%
+           family={Dieulesaint},
+           familyi={D\bibinitperiod},
+           given={Eugene},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{e6e9d92eebb6e59f433ee52fca5078e0}
+      \strng{fullhash}{e6e9d92eebb6e59f433ee52fca5078e0}
+      \strng{bibnamehash}{e6e9d92eebb6e59f433ee52fca5078e0}
+      \strng{authorbibnamehash}{e6e9d92eebb6e59f433ee52fca5078e0}
+      \strng{authornamehash}{e6e9d92eebb6e59f433ee52fca5078e0}
+      \strng{authorfullhash}{e6e9d92eebb6e59f433ee52fca5078e0}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Acoustique - Propagation dans un solide --- Techniques de l'ingénieur}
+      \field{urlday}{14}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.techniques-ingenieur.fr/base-documentaire/sciences-fondamentales-th8/applications-en-mecanique-physique-42643210/acoustique-af3814/
+      \endverb
+      \verb{url}
+      \verb https://www.techniques-ingenieur.fr/base-documentaire/sciences-fondamentales-th8/applications-en-mecanique-physique-42643210/acoustique-af3814/
+      \endverb
+    \endentry
+    \entry{revisions-bac}{online}{}
+      \name{author}{1}{}{%
+        {{hash=fd1137413dac0f42bdec16853f369568}{%
+           family={Bac},
+           familyi={B\bibinitperiod},
+           given={Révisions},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd1137413dac0f42bdec16853f369568}
+      \strng{fullhash}{fd1137413dac0f42bdec16853f369568}
+      \strng{bibnamehash}{fd1137413dac0f42bdec16853f369568}
+      \strng{authorbibnamehash}{fd1137413dac0f42bdec16853f369568}
+      \strng{authornamehash}{fd1137413dac0f42bdec16853f369568}
+      \strng{authorfullhash}{fd1137413dac0f42bdec16853f369568}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ondes transversales et longitudinales --- Youtube}
+      \field{urlday}{14}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=l1V4_SPfhLM
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=l1V4_SPfhLM
+      \endverb
+    \endentry
+    \entry{professeur-khattabi}{online}{}
+      \name{author}{1}{}{%
+        {{hash=649bc7c008425e35e3fe7d0933017abd}{%
+           family={Khattabi},
+           familyi={K\bibinitperiod},
+           given={Professeur},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{649bc7c008425e35e3fe7d0933017abd}
+      \strng{fullhash}{649bc7c008425e35e3fe7d0933017abd}
+      \strng{bibnamehash}{649bc7c008425e35e3fe7d0933017abd}
+      \strng{authorbibnamehash}{649bc7c008425e35e3fe7d0933017abd}
+      \strng{authornamehash}{649bc7c008425e35e3fe7d0933017abd}
+      \strng{authorfullhash}{649bc7c008425e35e3fe7d0933017abd}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Résonance --- DSFM}
+      \field{urlday}{14}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://web.dsfm.mb.ca/ecoles/clr/profs/fkhattabi/M3L2.pdf
+      \endverb
+      \verb{url}
+      \verb https://web.dsfm.mb.ca/ecoles/clr/profs/fkhattabi/M3L2.pdf
+      \endverb
+    \endentry
+    \entry{cea}{online}{}
+      \name{author}{1}{}{%
+        {{hash=453543ec8eb93a87a1ba4719815efc54}{%
+           family={CEA},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{453543ec8eb93a87a1ba4719815efc54}
+      \strng{fullhash}{453543ec8eb93a87a1ba4719815efc54}
+      \strng{bibnamehash}{453543ec8eb93a87a1ba4719815efc54}
+      \strng{authorbibnamehash}{453543ec8eb93a87a1ba4719815efc54}
+      \strng{authornamehash}{453543ec8eb93a87a1ba4719815efc54}
+      \strng{authorfullhash}{453543ec8eb93a87a1ba4719815efc54}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Le fonctionnement d'un scanner X --- CEA, De la recherche à l'industrie}
+      \field{urlday}{15}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.cea.fr/multimedia/pages/videos/culture-scientifique/sante-sciences-du-vivant/fonctionnement-scanner-x.aspx
+      \endverb
+      \verb{url}
+      \verb https://www.cea.fr/multimedia/pages/videos/culture-scientifique/sante-sciences-du-vivant/fonctionnement-scanner-x.aspx
+      \endverb
+    \endentry
+    \entry{wikipedia-echographie}{online}{}
+      \name{author}{1}{}{%
+        {{hash=030bd0fa2faebea3a5543e5242f1569f}{%
+           family={Wikipédia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{030bd0fa2faebea3a5543e5242f1569f}
+      \strng{fullhash}{030bd0fa2faebea3a5543e5242f1569f}
+      \strng{bibnamehash}{030bd0fa2faebea3a5543e5242f1569f}
+      \strng{authorbibnamehash}{030bd0fa2faebea3a5543e5242f1569f}
+      \strng{authornamehash}{030bd0fa2faebea3a5543e5242f1569f}
+      \strng{authorfullhash}{030bd0fa2faebea3a5543e5242f1569f}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Échographie --- Wikipédia, l'encyclopédie libre}
+      \field{urlday}{15}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://fr.wikipedia.org/wiki/Échographie
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/wiki/%C3%89chographie
+      \endverb
+    \endentry
+    \entry{wikipedia-imagerie-sismique}{online}{}
+      \name{author}{1}{}{%
+        {{hash=030bd0fa2faebea3a5543e5242f1569f}{%
+           family={Wikipédia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{030bd0fa2faebea3a5543e5242f1569f}
+      \strng{fullhash}{030bd0fa2faebea3a5543e5242f1569f}
+      \strng{bibnamehash}{030bd0fa2faebea3a5543e5242f1569f}
+      \strng{authorbibnamehash}{030bd0fa2faebea3a5543e5242f1569f}
+      \strng{authornamehash}{030bd0fa2faebea3a5543e5242f1569f}
+      \strng{authorfullhash}{030bd0fa2faebea3a5543e5242f1569f}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Imagerie sismique --- Wikipédia, l'encyclopédie libre}
+      \field{urlday}{15}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://fr.wikipedia.org/wiki/Imagerie_sismique
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/wiki/Imagerie_sismique
+      \endverb
+    \endentry
+    \entry{propagation-onde}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c5959a2e120fb1377da231fb5216c7a4}{%
+           family={Alles},
+           familyi={A\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c5959a2e120fb1377da231fb5216c7a4}
+      \strng{fullhash}{c5959a2e120fb1377da231fb5216c7a4}
+      \strng{bibnamehash}{c5959a2e120fb1377da231fb5216c7a4}
+      \strng{authorbibnamehash}{c5959a2e120fb1377da231fb5216c7a4}
+      \strng{authornamehash}{c5959a2e120fb1377da231fb5216c7a4}
+      \strng{authorfullhash}{c5959a2e120fb1377da231fb5216c7a4}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Propagation d'une onde --- Lycée Lalande}
+      \field{urlday}{23}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cahier-de-prepa.fr/pcsi-lalande/download?id=7
+      \endverb
+      \verb{url}
+      \verb https://cahier-de-prepa.fr/pcsi-lalande/download?id=7
+      \endverb
+    \endentry
+    \entry{image-onde-progressive}{online}{}
+      \name{author}{1}{}{%
+        {{hash=001f6e6d0e110c0ae4ca8a71ecfd5ce0}{%
+           family={OpenStax},
+           familyi={O\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{001f6e6d0e110c0ae4ca8a71ecfd5ce0}
+      \strng{fullhash}{001f6e6d0e110c0ae4ca8a71ecfd5ce0}
+      \strng{bibnamehash}{001f6e6d0e110c0ae4ca8a71ecfd5ce0}
+      \strng{authorbibnamehash}{001f6e6d0e110c0ae4ca8a71ecfd5ce0}
+      \strng{authornamehash}{001f6e6d0e110c0ae4ca8a71ecfd5ce0}
+      \strng{authorfullhash}{001f6e6d0e110c0ae4ca8a71ecfd5ce0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{16.3 : Mathématiques des ondes --- Libretexts}
+      \field{urlday}{23}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://query.libretexts.org/@go/page/191241
+      \endverb
+      \verb{url}
+      \verb https://query.libretexts.org/@go/page/191241
+      \endverb
+    \endentry
+    \entry{pastur-onde}{online}{}
+      \name{author}{1}{}{%
+        {{hash=80f07c2b1dd7c1ca831a34790656e859}{%
+           family={Pastur},
+           familyi={P\bibinitperiod},
+           given={Luc},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{80f07c2b1dd7c1ca831a34790656e859}
+      \strng{fullhash}{80f07c2b1dd7c1ca831a34790656e859}
+      \strng{bibnamehash}{80f07c2b1dd7c1ca831a34790656e859}
+      \strng{authorbibnamehash}{80f07c2b1dd7c1ca831a34790656e859}
+      \strng{authornamehash}{80f07c2b1dd7c1ca831a34790656e859}
+      \strng{authorfullhash}{80f07c2b1dd7c1ca831a34790656e859}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Consulté le 17.10.2023}
+      \field{title}{Ondes et Acoustiques dans les Fluides --- Université Paris-Saclay}
+      \field{urlday}{17}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://perso.limsi.fr/pastur/meca/M1MFL_oaf.pdf
+      \endverb
+      \verb{url}
+      \verb https://perso.limsi.fr/pastur/meca/M1MFL_oaf.pdf
+      \endverb
+    \endentry
+    \entry{gravier-laurent}{book}{}
+      \name{author}{1}{}{%
+        {{hash=09b92365f6fbf6f738bee9f2bf3fc305}{%
+           family={Gravier},
+           familyi={G\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Yverdon-les-Bains}%
+      }
+      \strng{namehash}{09b92365f6fbf6f738bee9f2bf3fc305}
+      \strng{fullhash}{09b92365f6fbf6f738bee9f2bf3fc305}
+      \strng{bibnamehash}{09b92365f6fbf6f738bee9f2bf3fc305}
+      \strng{authorbibnamehash}{09b92365f6fbf6f738bee9f2bf3fc305}
+      \strng{authornamehash}{09b92365f6fbf6f738bee9f2bf3fc305}
+      \strng{authorfullhash}{09b92365f6fbf6f738bee9f2bf3fc305}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{VERSION 16}
+      \field{title}{Formulaire IPH}
+      \field{year}{2022}
+    \endentry
+    \entry{rapport-heig}{report}{}
+      \name{author}{1}{}{%
+        {{hash=11a6ca72c9f514daf484131cd8aeb3ab}{%
+           family={Rapport},
+           familyi={R\bibinitperiod},
+           given={Auteur(s)},
+           giveni={A\bibinitperiod},
+           prefix={du},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {HEIG}%
+      }
+      \strng{namehash}{11a6ca72c9f514daf484131cd8aeb3ab}
+      \strng{fullhash}{11a6ca72c9f514daf484131cd8aeb3ab}
+      \strng{bibnamehash}{11a6ca72c9f514daf484131cd8aeb3ab}
+      \strng{authorbibnamehash}{11a6ca72c9f514daf484131cd8aeb3ab}
+      \strng{authornamehash}{11a6ca72c9f514daf484131cd8aeb3ab}
+      \strng{authorfullhash}{11a6ca72c9f514daf484131cd8aeb3ab}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Titre de Votre Rapport}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb URL de Votre Rapport (si disponible)
+      \endverb
+      \verb{url}
+      \verb URL%20de%20Votre%20Rapport%20(si%20disponible)
+      \endverb
+      \warn{\item Entry 'rapport-heig' (Bibliographie.bib): Invalid format 'Date de Consultation du Site Web (si disponible)' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{wiki-mod-young}{online}{}
+      \name{author}{1}{}{%
+        {{hash=030bd0fa2faebea3a5543e5242f1569f}{%
+           family={Wikipédia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{030bd0fa2faebea3a5543e5242f1569f}
+      \strng{fullhash}{030bd0fa2faebea3a5543e5242f1569f}
+      \strng{bibnamehash}{030bd0fa2faebea3a5543e5242f1569f}
+      \strng{authorbibnamehash}{030bd0fa2faebea3a5543e5242f1569f}
+      \strng{authornamehash}{030bd0fa2faebea3a5543e5242f1569f}
+      \strng{authorfullhash}{030bd0fa2faebea3a5543e5242f1569f}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Module de Young}
+      \field{urlday}{2}
+      \field{urlmonth}{11}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://fr.wikipedia.org/wiki/Module_de_Young
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/wiki/Module_de_Young
+      \endverb
+    \endentry
+    \entry{Polycop-Ondes}{book}{}
+      \name{author}{1}{}{%
+        {{hash=09b92365f6fbf6f738bee9f2bf3fc305}{%
+           family={Gravier},
+           familyi={G\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Yverdon-les-Bains}%
+      }
+      \strng{namehash}{09b92365f6fbf6f738bee9f2bf3fc305}
+      \strng{fullhash}{09b92365f6fbf6f738bee9f2bf3fc305}
+      \strng{bibnamehash}{09b92365f6fbf6f738bee9f2bf3fc305}
+      \strng{authorbibnamehash}{09b92365f6fbf6f738bee9f2bf3fc305}
+      \strng{authornamehash}{09b92365f6fbf6f738bee9f2bf3fc305}
+      \strng{authorfullhash}{09b92365f6fbf6f738bee9f2bf3fc305}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{janvier 2013}
+      \field{title}{TIN-PHY2-APD-Ondes-3}
+      \field{year}{2023}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
