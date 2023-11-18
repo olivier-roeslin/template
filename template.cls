@@ -40,5 +40,21 @@
 {0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 \usepackage{amsmath}
 \usepackage{adjustbox} % ajuster la taille de l'image
+\usepackage{enumitem} % jolie énumération
+\newlist{myitemize}{itemize}{1} % réglage énumération
+\setlist[myitemize,1]{label=--,left=0.5cm} % Utilisation de tirets comme puces
 \usepackage{subcaption} % mettre deux images à côté
-\usepackage{amssymb} % utiliser +ou-
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{wasysym} % accolade
+\usepackage{tikz} % accolade
+\usetikzlibrary{decorations.pathreplacing,calc,tikzmark}
+\usepackage{nicematrix} % accolade
+\usepackage{tcolorbox} % accolade
+\usepackage{pgfplotstable} % excel
+\usepackage[utf8]{inputenc} % UTF8 .csv
+\usepackage{filecontents}
+\usepackage{xcolor}
+\usepackage{multirow} % table convert
+\usepackage{colortbl} % table convert
+\usepackage{pdfpages}
